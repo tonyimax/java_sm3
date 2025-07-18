@@ -39,7 +39,7 @@ public class SM3WithHmac {
         String data = "Hello, HMAC-SM3!";
         String key = "secretKey";
 
-        System.out.println("SM3哈希: " + sm3Hash(data));//字符串转sm3哈希
+        System.out.println("SM3-HASH: " + sm3Hash(data));//字符串转sm3哈希
         System.out.println("HMAC-SM3: " + hmacSm3(key, data));//sm3哈希与密钥转为hmac
         //2c2d7be4307a1a030c018f9ff34be0180369d209ca2965293150588c9669b7df   --online
         //2c2d7be4307a1a030c018f9ff34be0180369d209ca2965293150588c9669b7df   --java cmd
